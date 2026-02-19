@@ -65,6 +65,7 @@ hr {
 .education .degree {
     display: flex;
     justify-content: space-between;
+    margin: 16px 0 0 0;
 }
 
 .degree .name {
@@ -74,8 +75,8 @@ hr {
 .educations {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: space-evenly;
+    gap: 16px;
 }
 
 .education {
@@ -127,15 +128,10 @@ hr {
         display: flex;
         flex-direction: column;
         margin: 16px 0;
+        gap: 4px;
     }
     .section-info {
         margin-bottom: 32px;
-    }
-
-    .company-info{
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
     }
 }
 

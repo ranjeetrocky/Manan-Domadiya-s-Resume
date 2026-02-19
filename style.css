@@ -47,6 +47,7 @@ hr {
 }
 
 .section-info {
+    margin-top: 32px;
     margin-bottom: 32px;
 }
 
@@ -65,7 +66,6 @@ hr {
 .education .degree {
     display: flex;
     justify-content: space-between;
-    margin: 16px 0 0 0;
 }
 
 .degree .name {
@@ -95,7 +95,6 @@ hr {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    margin: 16px 0;
 }
 
 .company-info .tasks li {
@@ -129,7 +128,6 @@ hr {
     .experience .company-info {
         display: flex;
         flex-direction: column;
-        margin: 16px 0;
         gap: 4px;
     }
     .section-info {

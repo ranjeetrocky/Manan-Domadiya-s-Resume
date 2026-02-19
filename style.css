@@ -10,6 +10,7 @@ hr {
 
 .resume-container {
     /* max-width: 1080px; */
+    max-width: 1000px;
     margin: 0 auto;
     padding: 56px;
     background-color: white;
@@ -135,13 +136,14 @@ hr {
     }
 }
 
+body{
+    background-color: gray;
+}
+
 /* Fractal Plaid Background */
-body {
-    /* position: fixed; */
+/* body {
     top: 0;
     left: 0;
-    /* width: 100vw; */
-    /* height: 100vh; */
     background:
         linear-gradient(45deg, #333 25%, transparent 25%) -50px 0/100px 100px,
         linear-gradient(135deg, #333 25%, transparent 25%) -50px 0/100px 100px,
@@ -152,7 +154,6 @@ body {
     z-index: -1;
 }
 
-/* Fractal Plaid Animation */
 @keyframes animatePlaid {
     0% {
         background-position:
@@ -168,4 +169,4 @@ body {
             100px -100px,
             -100px -100px;
     }
-}
+} */

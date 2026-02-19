@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 8px 0;
+}
 body {
     background-color: #404040;
 }
@@ -5,7 +14,7 @@ body {
 .resume-container {
     max-width: 1080px;
     margin: 0 auto;
-    padding: 44px;
+    padding: 56px;
     background-color: white;
     color: black;
     font-family: Poppins, sans-serif;
@@ -41,9 +50,33 @@ body {
 }
 
 .section-info {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 
 .section-info .info {
     text-align: justify;
+}
+
+.section-info p.skill {
+    margin: 8px;
+}
+
+.education .place {
+    display: flex;
+    justify-content: space-between;
+    /* font-weight: bold; */
+}
+.education .degree {
+    display: flex;
+    justify-content: space-between;
+}
+
+.degree .name {
+    font-weight: bold;
+}
+
+.educations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

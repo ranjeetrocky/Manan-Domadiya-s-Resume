@@ -97,12 +97,14 @@ hr {
     font-weight: bold;
     margin: 16px 0;
 }
-.company-info .duration {
-    font-weight: normal;
-}
 
 .company-info .tasks li {
     text-align: justify;
+}
+
+.duration {
+    font-weight: bold;
+    color: grey;
 }
 
 /* responsive */

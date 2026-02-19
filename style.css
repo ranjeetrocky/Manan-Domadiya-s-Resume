@@ -47,7 +47,7 @@ hr {
 }
 
 .section-info {
-    /* margin-bottom: 32px; */
+    margin-bottom: 32px;
 }
 
 .section-info .info {
@@ -57,7 +57,6 @@ hr {
 .section-info p.skill {
     margin: 8px;
 }
-
 .education .place {
     display: flex;
     justify-content: space-between;
@@ -75,14 +74,27 @@ hr {
 .educations {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     gap: 20px;
 }
 
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 /* Experience */
+.experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .experience .company-info {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+    margin: 16px 0;
 }
 .company-info .duration {
     font-weight: normal;
@@ -90,6 +102,41 @@ hr {
 
 .company-info .tasks li {
     text-align: justify;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 24px;
+    }
+    .contact-items {
+        flex-direction: column;
+        align-items: right;
+    }
+    .education {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .education .place,
+    .education .degree {
+        display: flex;
+        flex-direction: column;
+    }
+    .experience .company-info {
+        display: flex;
+        flex-direction: column;
+        margin: 16px 0;
+    }
+    .section-info {
+        margin-bottom: 32px;
+    }
+
+    .company-info{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
 }
 
 /* Fractal Plaid Background */
